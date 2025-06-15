@@ -1,9 +1,8 @@
-#include<stdio.h> 
+#include<stdio.h>
 
-int main(){ 
-    int numeros;   
+   int main(){
 
-    printf("Meu primeiro programa em C");
+       printf("Meu primeiro programa em C! ");
 
-    return 0;     
-}
+       return 0;
+   }
