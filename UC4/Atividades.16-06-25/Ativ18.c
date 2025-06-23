@@ -5,7 +5,7 @@ void saudacao(){
     printf("Olá! Bem-vindo à nossa aplicação.∖n");
   }
   //Função com parametro e sem retorno
-  void exibirMensagem(char mensagem[]{
+  void exibirMensagem (char mensagem[]){
     printf("Mensagem Recebida:%s∖n",mensagem);
   }  
 int soma(int a, int b);{
@@ -19,9 +19,10 @@ int main(){
     //Chamada da função
     int resultado = soma(x,y);
     printf("A soma de %d e %d e: %d∖n" , x, y, resultado);
+
     return 0;
 }
-// Definição da função
+// Definição da função soma
 int soma(int a, int b){
 return a + b;
 }  
