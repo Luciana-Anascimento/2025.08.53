@@ -15,6 +15,8 @@ int main() {
 
     } while (numero >= 0);
 
-    printf("Voce digitou um numero negativo. O programa foi encerrado.\n"); 
+    printf("Numero negativo. O programa foi encerrado.\n"); 
 
     return 0; 
+
+}

@@ -48,5 +48,6 @@ int main() {
     } while (continuar == 's' || continuar == 'S');
 
     printf("\nEncerrando o sistema de vendas.\n");
+    
     return 0;
 }
