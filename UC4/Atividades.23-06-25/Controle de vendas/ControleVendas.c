@@ -13,7 +13,7 @@ int main() {
         printf("Quantos produtos diferentes foram vendidos hoje? ");
         scanf("%d", &numProdutos);
 
-        for (int i = 1; i <= numProdutos; i++) {
+        for (int i = 0; i <= numProdutos; i++) {
             printf("\nProduto %d:\n", i);
 
             printf("Nome do produto: ");
