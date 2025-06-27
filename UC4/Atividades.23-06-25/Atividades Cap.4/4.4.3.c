@@ -19,7 +19,8 @@ int main() {
     } while (valorCompra != 0); 
 
     printf("\n--- Total das Compras ---\n");
-    printf("A soma total dos valores das compras e: R$ %.2f\n", somaTotal);
+    printf("A soma total das compras e: R$ %.2f\n", somaTotal);
 
     return 0; 
+    
 }
