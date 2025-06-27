@@ -12,7 +12,7 @@ int main() {
     int quantidadeMulheres = 0; 
     int salarioAbaixo500 = 0; 
 
-    printf("--- Coleta de Dados dos Moradores do Bairro ---\n");
+    printf("--- Coleta de dados dos moradores do bairro ---\n");
     printf("Digite 0 para a idade quando quiser encerrar a pesquisa.\n\n");
 
     while (1) { 
@@ -24,7 +24,7 @@ int main() {
         }
 
         if (idade < 0) {
-            printf("Idade inválida! Por favor, digite uma idade não negativa.\n");
+            printf("Idade invalida! Por favor, digite uma idade nao negativa.\n");
             continue; 
         }
 
@@ -33,16 +33,16 @@ int main() {
         scanf(" %c", &sexo);
 
         if (sexo != 'm' && sexo != 'f' && sexo != 'M' && sexo != 'F') {
-            printf("Sexo inválido! Por favor, digite 'm' ou 'f'.\n");
+            printf("Sexo invalido! Por favor, digite 'm' ou 'f'.\n");
             continue; 
         }
 
-        printf("Digite o salário do morador: ");
+        printf("Digite o salario do morador: ");
         scanf("%f", &salario);
 
         
         if (salario < 0) {
-            printf("Salário inválido! Por favor, digite um salário não negativo.\n");
+            printf("Salario invalido! Por favor, digite um salario nao negativo.\n");
             continue; 
         }
 
@@ -65,22 +65,22 @@ int main() {
         printf("-- Dados registrados com sucesso! --\n\n");
     }
 
-    printf("\n--- Análise dos Dados Coletados ---\n");
+    printf("\n--- Analise dos Dados Coletados ---\n");
 
     if (totalMoradores == 0) {
-        printf("Nenhum dado foi inserido. Pesquisa encerrada sem informações.\n");
+        printf("Nenhum dado foi inserido. Pesquisa encerrada sem informacoes.\n");
     } else {
         printf("a. A maior idade encontrada: %d anos\n", maiorIdade);
 
         if (totalMoradores > 0) {
-            printf("b. A média salarial: R$ %.2f\n", somaSalarios / totalMoradores);
+            printf("b. A media salarial: R$ %.2f\n", somaSalarios / totalMoradores);
         } else {
-            printf("b. Não foi possível calcular a média salarial (nenhum morador com dados válidos).\n");
+            printf("b. Nao foi possivel calcular a media salarial (nenhum morador com dados validos).\n");
         }
 
         printf("c. A quantidade de mulheres: %d\n", quantidadeMulheres);
 
-        printf("d. Existe salário abaixo de R$ 500? %s\n", (salarioAbaixo500 ? "Sim" : "Não"));
+        printf("d. Existe salario abaixo de R$ 500? %s\n", (salarioAbaixo500 ? "Sim" : "Nao"));
     }
 
     return 0; 
