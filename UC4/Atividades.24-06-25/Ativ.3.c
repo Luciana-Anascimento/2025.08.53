@@ -17,7 +17,7 @@ int main() {
         printf("Filial %d:\n", i + 1);
         // O loop interno para as colunas (meses)
         for (int j = 0; j < 4; j++) {
-            printf("  Mês %d: %d\n", j + 1, vendas_filiais[i][j]);
+            printf("  Mes %d: %d\n", j + 1, vendas_filiais[i][j]);
         }
     }
 
@@ -35,7 +35,7 @@ int main() {
         total_vendas_mes3 += vendas_filiais[i][2]; // Acessando a coluna 2 (Mês 3)
     }
 
-    printf("Total de vendas do Mês 3 (todas as filiais): %d\n", total_vendas_mes3);
+    printf("Total de vendas do Mes 3 (todas as filiais): %d\n", total_vendas_mes3);
 
     return 0;
 }
